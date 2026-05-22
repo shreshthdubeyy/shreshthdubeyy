@@ -1,110 +1,125 @@
-<h1 align="center">Hi, I'm Shreshth Dubey</h1>
+# Shreshth Dubey
 
-<p align="center">
-  Product Analyst focused on freight, logistics SaaS, and air cargo digital transformation.
-</p>
+![Shreshth Dubey](https://i.postimg.cc/wxJdbQGK/1763016603325.png)
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/shreshthdubey/">
-    <img src="https://img.shields.io/badge/LinkedIn-Shreshth%20Dubey-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:shreshthdubeyy@gmail.com">
-    <img src="https://img.shields.io/badge/Email-shreshthdubeyy%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://YOUR_PORTFOLIO_URL">
-    <img src="https://img.shields.io/badge/Portfolio-SD.ANALYST-4F46E5?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-  </a>
-</p>
+**Product Analyst**
+
+MBA - IIIT Ranchi
+
+Air Cargo Domain Specialist - Digital Transformation Expert
 
 ---
 
-## About me
+## Agile Certified Practitioner (PMI-ACP)
 
-I turn messy freight operations problems into structured product solutions, working across discovery, requirements, integration specs, UAT, and delivery.
+[![PMI-ACP Logo](https://i.postimg.cc/fbZKDDwf/pmi-agile-certified-practitioner-pmi-acp.png)](https://www.credly.com/badges/220e4635-944f-45cb-aa29-d7ed204688e5/public_url)
 
-Currently, I work as an Analyst - Product Excellence at Freightoscope, where I translate logistics workflows into product features, user stories, acceptance criteria, and integration documentation for cross-functional squads.
+Professional validation of Agile expertise in Scrum, Kanban, and Lean frameworks, focused on delivering mission-critical SaaS and ERP solutions.
 
-Before this, I spent nearly three years as a Business Applications Specialist at Worldwide Flight Services, leading cargo SaaS deployments, real-time reporting, compliance automation, and systems integration across airport operations.
-
-I started as a Business Analyst in air cargo community systems, so I understand logistics platforms from the operations layer up. I also code on the side, enough to prototype ideas, deploy live tools, and collaborate closely with engineering teams.
+[VERIFY ON CREDLY](https://www.credly.com/badges/220e4635-944f-45cb-aa29-d7ed204688e5/public_url)
 
 ---
 
-## What I work on
+## Professional Impact
 
-- Product discovery, requirements, and stakeholder alignment
-- SaaS deployment and ERP implementation
-- Air cargo operations and logistics process mapping
-- EDI / C-XML / C-IMP integrations
-- UAT planning, user stories, and acceptance criteria
-- Snowflake reporting and centralized SLA monitoring
-- Compliance automation, e-invoicing, and digital transformation
+### Product Analyst
 
----
+**Freightoscope - [2026-Present]**
 
-## Featured impact
+Driving product strategy and digital solution delivery for modern logistics ecosystems.
 
-| Area | Work |
-| --- | --- |
-| Product Excellence | Own user stories, acceptance criteria, integration specs, and Jira documentation for freight product modules |
-| SaaS Migration | Led CMS migration from legacy infrastructure with zero downtime and 30% faster processing efficiency |
-| Airport Automation | Integrated ASRS, ETVs, and ULD weighing scales with CMS for real-time ground operations sync |
-| Data & Reporting | Connected local CMS with Snowflake for real-time reporting and cross-regional analytics |
-| Compliance | Integrated IRN with GST portal to streamline e-invoicing and government compliance |
-| Air Cargo Systems | Built process flows, functional requirements, wireframes, and test scripts for air cargo community systems |
+### Business Application Specialist
 
----
+**WFS - Bengaluru [2023-2026]**
 
-## Core toolkit
+- SaaS Application Deployment
+- Snowflake Real-time Reporting
+- E-invoicing (IRN/GST) Automation
+- Centralized SLA Monitoring
+- C-XML Messaging Architecture
+- Security Standards Compliance
 
-<p>
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira" />
-  <img src="https://img.shields.io/badge/Agile-Scrum%20%7C%20Kanban-4F46E5?style=for-the-badge" alt="Agile" />
-  <img src="https://img.shields.io/badge/SaaS-Product%20Delivery-111827?style=for-the-badge" alt="SaaS Product Delivery" />
-  <img src="https://img.shields.io/badge/EDI-C--XML%20%7C%20C--IMP-0F766E?style=for-the-badge" alt="EDI" />
-  <img src="https://img.shields.io/badge/Air%20Cargo-Domain%20Systems-7C3AED?style=for-the-badge" alt="Air Cargo" />
-</p>
+### Business Analyst Apprentice
+
+**Kale Logistics Solutions [2022-2023]**
+
+- Workflow Mapping (Air Cargo)
+- Functional Documentation
+- Agile User Story Creation
+- Client Terminal Onboarding
+- Sprint Tracking & Support
+- ERP Module Implementation
 
 ---
 
-## Certification highlight
+## Core Competencies
 
-<p>
-  <a href="https://www.credly.com/badges/220e4635-944f-45cb-aa29-d7ed204688e5/public_url">
-    <img src="https://i.postimg.cc/fbZKDDwf/pmi-agile-certified-practitioner-pmi-acp.png" alt="PMI-ACP certification badge" width="130" />
-  </a>
-</p>
+### Product & Delivery
 
-**PMI Agile Certified Practitioner (PMI-ACP)**  
-Professional validation of Agile expertise across Scrum, Kanban, Lean, adaptive planning, stakeholder engagement, and value-driven delivery.
+- Agile (Scrum/Kanban)
+- User Stories & UAT
+- SaaS Delivery
 
-Other certifications include:
+### Tools & Analytics
 
-- Air Cargo Domain
-- Business Analyst and Project Manager Collaboration
-- Managing Projects with Microsoft 365
-- Managing Data with Microsoft 365
-- Basics of Logistics, Fleet and Warehouse Management
+- Jira
+- Power BI
+- Snowflake
 
----
+### Domain & Systems
 
-## GitHub stats
-
-<!-- Replace YOUR_GITHUB_USERNAME with your actual GitHub username. -->
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=shreshthdubeyy&show_icons=true&theme=default&hide_border=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=shreshthdubeyy&hide_border=true" alt="GitHub streak" />
-</p>
+- ERP & EDI (C-XML)
+- Air Cargo Ops
+- Process Mapping
 
 ---
 
-## Let's connect
+## Projects
 
-I am interested in product roles, logistics technology, SaaS delivery, freight automation, and tools that make operations simpler for the people doing the work every day.
+### Transformation
 
-<p>
-  <a href="https://www.linkedin.com/in/shreshthdubey/">LinkedIn</a> |
-  <a href="mailto:shreshthdubey007@gmail.com">Email</a> |
-  <a href="https://YOUR_PORTFOLIO_URL">Portfolio</a>
-</p>
+**CMS SaaS Migration**
+
+Legacy to modern SaaS migration delivering a 30% increase in processing efficiency.
+
+### Infrastructure
+
+**Airport Automation**
+
+Integration of ASRS, ETVs, and ULD scales for real-time operations data sync.
+
+### Compliance
+
+**Global HRIS Rollout**
+
+Coordinated rollout of connected HRIS across multiple geographies and business units.
+
+---
+
+## Key Certifications
+
+- Google Data Studio
+- QMS Lead Auditor
+- Gen-AI for PMs
+- BA & PM Collaboration
+- Young Professional (TCS)
+
+---
+
+## Work with me
+
+Let's build the future of logistics technology together.
+
+[CONNECT ON LINKEDIN](https://www.linkedin.com/in/shreshthdubey/)
+
+---
+
+## Get in Touch
+
+Name: John Doe
+
+Email: john@example.com
+
+Message: Your message here...
+
+[LinkedIn](https://www.linkedin.com/in/shreshthdubey/)
