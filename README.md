@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-Shreshth%20Dubey-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:shreshthdubeyy@gmail.com">
-    <img src="https://img.shields.io/badge/Email-shreshthdubey007%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-shreshthdubeyy%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://YOUR_PORTFOLIO_URL">
     <img src="https://img.shields.io/badge/Portfolio-SD.ANALYST-4F46E5?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
