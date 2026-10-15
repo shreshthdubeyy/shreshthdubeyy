@@ -91,18 +91,6 @@ Stack   : TypeScript, JavaScript, PWAs, Relational Schemas, REST APIs
 
 ---
 
-### 📐 Systems Architecture & Technical Decisions
-
-| System | Architecture Pattern | Technical Focus | Live Build |
-| :--- | :--- | :--- | :--- |
-| **Synapse** | Vanilla JS + SVG DOM Engine | Gemini API sprint risk analysis | [Launch Demo](https://shreshthdubeyy.github.io/Synapse/) |
-| **AWB Mod-7** | Zero-dependency PWA | IATA Modulo-7 checksum algorithm | [Launch Demo](https://shreshthdubeyy.github.io/AWB/) |
-| **CensusConnect** | IndexedDB + Service Worker | Offline-first sync & dual-language UI | [Launch Demo](https://shreshthdubeyy.github.io/CensusConnect/) |
-| **Fitness-OS** | React + Local-first Engine | Client-side metabolic mathematical models | [Launch Demo](https://fitness-os-rouge.vercel.app/) |
-| **CrewTask** | PHP + Relational Schema | Enterprise WDO state machine & cargo workflow | [Launch Demo](https://shreshthdubeyy.site.je/CrewTask) |
-
----
-
 ### 🌐 Enterprise Case Studies
 
 For my enterprise product analyst case studies and career history, visit my portfolio:  
