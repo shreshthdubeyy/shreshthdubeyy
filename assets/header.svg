@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f17"/>
+      <stop offset="50%" stop-color="#111726"/>
+      <stop offset="100%" stop-color="#0b0f17"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <pattern id="gridPattern" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Shell -->
+  <rect width="920" height="220" rx="14" fill="url(#bgGrad)"/>
+  <rect width="920" height="220" rx="14" fill="url(#gridPattern)"/>
+  <rect width="920" height="220" rx="14" fill="none" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1"/>
+
+  <!-- Top System Telemetry Bar -->
+  <line x1="0" y1="42" x2="920" y2="42" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+
+  <!-- Telemetry Badges (Left) -->
+  <circle cx="32" cy="21" r="4.5" fill="#10b981"/>
+  <circle cx="32" cy="21" r="8" fill="none" stroke="#10b981" stroke-width="1" opacity="0.4"/>
+  <text x="48" y="25" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="600" fill="#34d399" letter-spacing="1">SYS.STATUS // ACTIVE</text>
+  <text x="210" y="25" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#64748b">|</text>
+  <text x="226" y="25" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#94a3b8" letter-spacing="0.5">STATION: FREIGHTOSCOPE</text>
+
+  <!-- Telemetry Badges (Right) -->
+  <text x="888" y="25" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#94a3b8" letter-spacing="0.5">SPEC: ENTERPRISE LOGISTICS &amp; AIR CARGO</text>
+
+  <!-- Center Identity Monogram / Blueprint Badge -->
+  <g transform="translate(32, 64)">
+    <rect width="48" height="48" rx="10" fill="rgba(56, 189, 248, 0.08)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1"/>
+    <text x="24" y="31" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="20" font-weight="800" fill="#38bdf8">SD</text>
+  </g>
+
+  <!-- Main Headline Block -->
+  <text x="96" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="26" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">SHRESHTH DUBEY</text>
+  
+  <text x="96" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="14" font-weight="600" fill="url(#accentGrad)" letter-spacing="-0.2">Product Analyst · Enterprise Logistics SaaS &amp; Air Cargo Systems</text>
+
+  <text x="32" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13" font-weight="400" fill="#94a3b8" letter-spacing="-0.1">Translating complex operational workflows into deterministic technical specifications, carrier API contracts, and UAT delivery backlogs.</text>
+
+  <!-- Bottom Telemetry Chips -->
+  <g transform="translate(32, 172)">
+    <!-- Chip 1 -->
+    <rect x="0" y="0" width="168" height="26" rx="6" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.09)" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3" fill="#38bdf8"/>
+    <text x="22" y="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="600" fill="#e2e8f0">PMI-ACP® CERTIFIED</text>
+
+    <!-- Chip 2 -->
+    <rect x="178" y="0" width="200" height="26" rx="6" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.09)" stroke-width="1"/>
+    <circle cx="190" cy="13" r="3" fill="#818cf8"/>
+    <text x="200" y="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="600" fill="#e2e8f0">0-TO-1 GREENFIELD CRM</text>
+
+    <!-- Chip 3 -->
+    <rect x="388" y="0" width="232" height="26" rx="6" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.09)" stroke-width="1"/>
+    <circle cx="400" cy="13" r="3" fill="#34d399"/>
+    <text x="410" y="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="600" fill="#e2e8f0">3+ YRS MULTI-SITE ROLLOUTS</text>
+
+    <!-- Chip 4 -->
+    <rect x="630" y="0" width="144" height="26" rx="6" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.09)" stroke-width="1"/>
+    <circle cx="642" cy="13" r="3" fill="#f59e0b"/>
+    <text x="652" y="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="600" fill="#e2e8f0">MBA · IIIT RANCHI</text>
+  </g>
+</svg>
