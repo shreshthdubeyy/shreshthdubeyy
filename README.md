@@ -1,165 +1,109 @@
 <div align="center">
-  <img src="https://i.postimg.cc/wxJdbQGK/1763016603325.png" width="120" alt="Shreshth Dubey" />
 
-  <h1>Shreshth Dubey</h1>
+# Hi, I'm Shreshth Dubey 👋
 
-  <p>
-    <strong>Product Analyst for freight, air cargo, and logistics SaaS</strong>
-  </p>
+**AI-First Builder · Full-Stack Prototyper**
 
-  <p>
-    I turn freight operations complexity into product requirements, integration specs, UAT plans, and shipped systems that work in the real world.
-  </p>
+```yaml
+Role    : Full-Stack Prototyper · AI-First Builder
+Focus   : Autonomous agent workflows & Gemini-powered operational tooling
+Next Up : Offline edge AI proxy for field PWAs
+Stack   : TypeScript, JavaScript, PWAs, Relational Schemas, REST APIs
+```
 
-  <p>
-    <a href="https://www.linkedin.com/in/shreshthdubey/">
-      <img src="https://img.shields.io/badge/LinkedIn-Shreshth%20Dubey-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="mailto:shreshthdubeyy@gmail.com">
-      <img src="https://img.shields.io/badge/Email-shreshthdubeyy%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-    <a href="https://shreshthdubeyy.github.io/">
-      <img src="https://img.shields.io/badge/Portfolio-SD.ANALYST-4F46E5?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-    </a>
-    <img src="https://komarev.com/ghpvc/?username=shreshthdubeyy&style=for-the-badge&color=4f46e5" alt="Profile views" />
-  </p>
+<p align="center">
+  <a href="https://shreshthdubeyy.github.io/">
+    <img src="https://img.shields.io/badge/Portfolio-shreshthdubeyy.github.io-2563EB?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://linkedin.com/in/shreshthdubeyy">
+    <img src="https://img.shields.io/badge/LinkedIn-shreshthdubeyy-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:shreshthdubeyy@gmail.com">
+    <img src="https://img.shields.io/badge/Email-shreshthdubeyy%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
+
 </div>
 
 ---
 
-## Product lens
+### ⚡ Tech Stack & Tools
 
-I work at the intersection of freight operations, product delivery, and systems integration. My edge is practical product thinking: I have sat close to operations, business analysis, application delivery, and product excellence, so I know where freight workflows break and how to translate that into something engineering can build.
-
-| Focus | What that means in practice |
-| --- | --- |
-| Product discovery | Map workflows, run requirement sessions, identify operational gaps, and convert ambiguity into structured product scope |
-| Delivery detail | Write user stories, acceptance criteria, Jira documentation, UAT scripts, and rollout-ready specs |
-| Systems thinking | Work across SaaS, ERP, CMS, EDI, C-XML, C-IMP, role-based access, and reporting layers |
-| Logistics domain | Bring hands-on context from air cargo community systems, cargo operations, airport infrastructure, and compliance workflows |
-
----
-
-## Current work
-
-**Analyst - Product Excellence, Freightoscope**  
-January 2026 - Present
-
-- Own product requirements across user stories, acceptance criteria, integration specs, and Jira documentation.
-- Translate freight workflows into product features with engineering and stakeholder teams.
-- Support discovery, process mapping, UAT scripts, and integration design for logistics system connectivity.
-
----
-
-## Selected impact
-
-| Theme | Result |
-| --- | --- |
-| CMS SaaS migration | Led migration from legacy infrastructure with zero downtime and 30% faster processing efficiency |
-| Airport automation | Integrated ASRS, ETVs, and ULD weighing scales with CMS for real-time operations data sync |
-| Reporting layer | Connected local CMS with Snowflake for real-time reporting, cross-regional analytics, and centralized SLA monitoring |
-| Compliance automation | Integrated IRN with the GST portal to streamline e-invoicing and support government compliance |
-| Messaging architecture | Delivered EDI messaging across C-XML and C-IMP to improve message accuracy and cargo platform turnaround |
-| Air cargo systems | Built process flows, functional requirements, wireframes, change documents, and testing support for community system modules |
-
----
-
-## Domain stack
-
-<p>
-  <img src="https://img.shields.io/badge/Air%20Cargo-Domain%20Systems-111827?style=for-the-badge" alt="Air Cargo" />
-  <img src="https://img.shields.io/badge/Logistics-SaaS%20Delivery-0F766E?style=for-the-badge" alt="Logistics SaaS" />
-  <img src="https://img.shields.io/badge/Product-Discovery%20to%20UAT-4F46E5?style=for-the-badge" alt="Product Discovery to UAT" />
-  <img src="https://img.shields.io/badge/ERP-Implementation-7C3AED?style=for-the-badge" alt="ERP Implementation" />
-  <img src="https://img.shields.io/badge/EDI-C--XML%20%7C%20C--IMP-DC2626?style=for-the-badge" alt="EDI C-XML C-IMP" />
-  <img src="https://img.shields.io/badge/SLA-Monitoring-2563EB?style=for-the-badge" alt="SLA Monitoring" />
-</p>
-
-## Tools I use
-
-<p>
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira" />
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
-  <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" alt="Snowflake" />
-  <img src="https://img.shields.io/badge/Microsoft%20365-D83B01?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft 365" />
-  <img src="https://img.shields.io/badge/Scrum-Agile%20Delivery-10B981?style=for-the-badge" alt="Scrum" />
-  <img src="https://img.shields.io/badge/Kanban-Flow%20Management-F59E0B?style=for-the-badge" alt="Kanban" />
-  <img src="https://img.shields.io/badge/UAT-Test%20Scripts-64748B?style=for-the-badge" alt="UAT" />
-</p>
-
----
-
-## Case-study themes
-
-I like building and documenting around problems where product, process, and systems meet:
-
-- Freight workflow automation and operational visibility
-- SaaS migration playbooks for logistics applications
-- Air cargo process mapping and module-level requirements
-- EDI and API handoff specs that reduce ambiguity for engineering teams
-- Reporting layers that make SLA and operational performance easier to act on
-- Lightweight prototypes that help stakeholders see the product before it is fully built
-
-<!--
-Optional: after you have public repos, replace YOUR_REPO_NAME with real repository names.
-
-<a href="https://github.com/shreshthdubeyy/YOUR_REPO_NAME">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shreshthdubeyy&repo=YOUR_REPO_NAME&theme=transparent&hide_border=true" alt="Pinned repository" />
-</a>
--->
-
----
-
-## Certification highlight
-
-<p>
-  <a href="https://www.credly.com/badges/220e4635-944f-45cb-aa29-d7ed204688e5/public_url">
-    <img src="https://i.postimg.cc/fbZKDDwf/pmi-agile-certified-practitioner-pmi-acp.png" width="130" alt="PMI-ACP certification badge" />
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,html,css,tailwind,php,mysql,git,github,postman,vscode,vercel,figma" alt="Tech Stack" />
   </a>
 </p>
 
-**PMI Agile Certified Practitioner (PMI-ACP)**  
-Agile delivery credential covering Scrum, Kanban, Lean, adaptive planning, value-driven delivery, and stakeholder engagement.
-
-Additional certifications:
-
-- Air Cargo Domain
-- Business Analyst and Project Manager Collaboration
-- Managing Projects with Microsoft 365
-- Managing Data with Microsoft 365
-- Basics of Logistics, Fleet and Warehouse Management
-- Google Data Studio
-- QMS Lead Auditor
-- Gen-AI for PMs
-- Young Professional, TCS
-
 ---
 
-## GitHub snapshot
+### 📊 GitHub Activity & Language Split
 
-<details>
-  <summary>Show GitHub stats</summary>
-
-  <br />
-
-  <p align="center">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=shreshthdubeyy&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="GitHub stats" />
-    <img height="165" src="https://streak-stats.demolab.com/?user=shreshthdubeyy&theme=transparent&hide_border=true" alt="GitHub streak" />
-  </p>
-
-  <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreshthdubeyy&layout=compact&theme=transparent&hide_border=true&hide_progress=true" alt="Top languages" />
-  </p>
-</details>
-
----
-
-## Connect
-
-I am open to conversations around product roles, logistics technology, SaaS delivery, freight automation, and tools that make operations simpler for the people doing the work every day.
-
-<p>
-  <a href="https://www.linkedin.com/in/shreshthdubey/">LinkedIn</a> |
-  <a href="mailto:shreshthdubeyy@gmail.com">Email</a> |
-  <a href="https://https://shreshthdubeyy.github.io/">Portfolio</a>
+<p align="center">
+  <img height="135" src="https://github-readme-stats.vercel.app/api?username=shreshthdubeyy&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&hide=stars,prs,issues,contribs&hide_rank=true&custom_title=Lifetime%20Commits&cache_seconds=1800" alt="Lifetime Commits" />
+  <img height="135" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreshthdubeyy&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages Split" />
 </p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shreshthdubeyy/shreshthdubeyy/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shreshthdubeyy/shreshthdubeyy/output/github-snake.svg" />
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/shreshthdubeyy/shreshthdubeyy/output/github-snake.svg" />
+  </picture>
+</p>
+
+---
+
+### 🛠️ Shipped Builds & Public Repositories
+
+<p align="center">
+  <a href="https://github.com/shreshthdubeyy/Synapse">
+    <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=shreshthdubeyy&repo=Synapse&theme=tokyonight&hide_border=true&description_lines_count=1" alt="Synapse" />
+  </a>
+  <a href="https://github.com/shreshthdubeyy/AWB">
+    <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=shreshthdubeyy&repo=AWB&theme=tokyonight&hide_border=true&description_lines_count=1" alt="AWB" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/shreshthdubeyy/CensusConnect">
+    <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=shreshthdubeyy&repo=CensusConnect&theme=tokyonight&hide_border=true&description_lines_count=1" alt="CensusConnect" />
+  </a>
+  <a href="https://github.com/shreshthdubeyy/Fitness-OS">
+    <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=shreshthdubeyy&repo=Fitness-OS&theme=tokyonight&hide_border=true&description_lines_count=1" alt="Fitness OS" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://shreshthdubeyy.site.je/CrewTask">
+    <img src="https://img.shields.io/badge/Live_ERP_Deploy-CrewTask%20%C2%B7%20Air%20Cargo%20WDO%20Platform-1d4ed8?style=for-the-badge&logo=php&logoColor=white" alt="CrewTask Live Demo" />
+  </a>
+</p>
+
+<p align="center">
+  <strong>⚡ Quick Launch Live Demos:</strong><br />
+  <a href="https://shreshthdubeyy.github.io/Synapse/">Synapse</a> ·
+  <a href="https://shreshthdubeyy.github.io/AWB/">AWB Mod-7</a> ·
+  <a href="https://shreshthdubeyy.github.io/CensusConnect/">CensusConnect</a> ·
+  <a href="https://fitness-os-rouge.vercel.app/">Fitness OS</a> ·
+  <a href="https://shreshthdubeyy.site.je/CrewTask">CrewTask</a>
+</p>
+
+---
+
+### 📐 Systems Architecture & Technical Decisions
+
+| System | Architecture Pattern | Technical Focus | Live Build |
+| :--- | :--- | :--- | :--- |
+| **Synapse** | Vanilla JS + SVG DOM Engine | Gemini API sprint risk analysis | [Launch Demo](https://shreshthdubeyy.github.io/Synapse/) |
+| **AWB Mod-7** | Zero-dependency PWA | IATA Modulo-7 checksum algorithm | [Launch Demo](https://shreshthdubeyy.github.io/AWB/) |
+| **CensusConnect** | IndexedDB + Service Worker | Offline-first sync & dual-language UI | [Launch Demo](https://shreshthdubeyy.github.io/CensusConnect/) |
+| **Fitness-OS** | React + Local-first Engine | Client-side metabolic mathematical models | [Launch Demo](https://fitness-os-rouge.vercel.app/) |
+| **CrewTask** | PHP + Relational Schema | Enterprise WDO state machine & cargo workflow | [Launch Demo](https://shreshthdubeyy.site.je/CrewTask) |
+
+---
+
+### 🌐 Enterprise Case Studies
+
+For my enterprise product analyst case studies and career history, visit my portfolio:  
+👉 **[shreshthdubeyy.github.io](https://shreshthdubeyy.github.io/)**
