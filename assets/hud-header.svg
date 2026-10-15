@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hudBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040711"/>
+      <stop offset="50%" stop-color="#090e1d"/>
+      <stop offset="100%" stop-color="#040711"/>
+    </linearGradient>
+
+    <linearGradient id="scanBeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="50%" stop-color="rgba(56, 189, 248, 0.12)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+
+    <pattern id="hudGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="rgba(56, 189, 248, 0.04)" stroke-width="1"/>
+      <circle cx="28" cy="28" r="0.75" fill="rgba(56, 189, 248, 0.15)"/>
+    </pattern>
+
+    <style>
+      @keyframes radarSweep {
+        0% { transform: translateY(-100%); }
+        100% { transform: translateY(280px); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.35; transform: scale(1.3); }
+      }
+      @keyframes blinkCursor {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes dataStream {
+        0% { stroke-dashoffset: 200; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes telemetryFade {
+        0%, 100% { opacity: 0.85; }
+        50% { opacity: 1; }
+      }
+      .scan-line {
+        animation: radarSweep 6s linear infinite;
+      }
+      .beacon-dot {
+        transform-origin: 34px 24px;
+        animation: pulseGlow 2.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+      }
+      .beacon-ring {
+        transform-origin: 34px 24px;
+        animation: pulseGlow 2.2s cubic-bezier(0.4, 0, 0.6, 1) infinite 0.4s;
+      }
+      .term-cursor {
+        animation: blinkCursor 0.9s infinite;
+      }
+      .stream-pulse {
+        stroke-dasharray: 8 16;
+        animation: dataStream 3s linear infinite;
+      }
+      .hud-telemetry {
+        animation: telemetryFade 3s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="920" height="280" rx="14" fill="url(#hudBg)"/>
+  <rect width="920" height="280" rx="14" fill="url(#hudGrid)"/>
+  <rect width="920" height="280" rx="14" fill="none" stroke="rgba(56, 189, 248, 0.16)" stroke-width="1"/>
+
+  <!-- Scanning Sweep Laser -->
+  <g class="scan-line" pointer-events="none">
+    <rect x="0" y="0" width="920" height="40" fill="url(#scanBeam)"/>
+    <line x1="0" y1="40" x2="920" y2="40" stroke="rgba(56, 189, 248, 0.4)" stroke-width="0.75"/>
+  </g>
+
+  <!-- Precision Corner Reticles -->
+  <path d="M 12 28 L 12 12 L 28 12" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+  <path d="M 908 28 L 908 12 L 892 12" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+  <path d="M 12 252 L 12 268 L 28 268" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+  <path d="M 908 252 L 908 268 L 892 268" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+
+  <!-- Top Avionics HUD Status Bar -->
+  <line x1="0" y1="46" x2="920" y2="46" stroke="rgba(56, 189, 248, 0.1)" stroke-width="1"/>
+
+  <!-- Live Pulsing Status Beacon -->
+  <circle class="beacon-ring" cx="34" cy="23" r="8" fill="none" stroke="#10b981" stroke-width="1" opacity="0.3"/>
+  <circle class="beacon-dot" cx="34" cy="23" r="4" fill="#10b981"/>
+  <text x="50" y="27" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="10.5" font-weight="700" fill="#34d399" letter-spacing="1.2">SYSTEM // ACTIVE_STATION : FREIGHTOSCOPE</text>
+
+  <!-- Coordinate & Kernel Metadata -->
+  <text x="500" y="27" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="10.5" fill="#64748b" letter-spacing="0.8">KERNEL: AIR_CARGO_SaaS_v2.6</text>
+  <text x="888" y="27" text-anchor="end" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="10.5" fill="#38bdf8" letter-spacing="0.8">LOC: 28.6139° N / 77.2090° E</text>
+
+  <!-- Tactical Monogram Emblem -->
+  <g transform="translate(34, 68)">
+    <rect width="60" height="60" rx="12" fill="rgba(56, 189, 248, 0.05)" stroke="rgba(56, 189, 248, 0.35)" stroke-width="1.2"/>
+    <path d="M 0 16 L 60 16 M 0 44 L 60 44 M 16 0 L 16 60 M 44 0 L 44 60" stroke="rgba(56, 189, 248, 0.08)" stroke-width="0.75"/>
+    <circle cx="30" cy="30" r="20" fill="none" stroke="rgba(129, 140, 248, 0.4)" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="30" y="38" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="24" font-weight="900" fill="#38bdf8">SD</text>
+  </g>
+
+  <!-- Callout Header Text -->
+  <text x="112" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="30" font-weight="900" fill="#f8fafc" letter-spacing="-0.8">SHRESHTH DUBEY</text>
+  <text x="112" y="118" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="13" font-weight="700" fill="url(#neonCyan)" letter-spacing="0.5">PRODUCT ANALYST // ENTERPRISE SYSTEMS ARCHITECT</text>
+
+  <!-- Animated Interactive Terminal Command Line -->
+  <g transform="translate(34, 144)">
+    <rect width="852" height="38" rx="8" fill="rgba(0, 0, 0, 0.5)" stroke="rgba(56, 189, 248, 0.2)" stroke-width="1"/>
+    <text x="16" y="24" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="12" font-weight="600" fill="#38bdf8">&gt; EXECUTE spec_pipeline</text>
+    <text x="210" y="24" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="12" fill="#94a3b8">--scope="0-to-1 Greenfield CRM" --protocols="Carrier APIs, EDI (C-XML/C-IMP)"</text>
+    <rect class="term-cursor" x="780" y="13" width="7" height="15" fill="#38bdf8"/>
+  </g>
+
+  <!-- Technical Telemetry Matrix Strip -->
+  <g class="hud-telemetry" transform="translate(34, 200)">
+    <!-- Node 1: Greenfield CRM -->
+    <rect x="0" y="0" width="202" height="58" rx="8" fill="rgba(56, 189, 248, 0.03)" stroke="rgba(56, 189, 248, 0.16)" stroke-width="1"/>
+    <text x="14" y="20" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="9.5" font-weight="700" fill="#38bdf8">FLAGSHIP SPEC</text>
+    <text x="14" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">0-to-1 Freight CRM</text>
+    <text x="14" y="50" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="9" fill="#10b981">● 100% SPRINT PASS RATE</text>
+
+    <!-- Node 2: Certification -->
+    <rect x="216" y="0" width="202" height="58" rx="8" fill="rgba(129, 140, 248, 0.03)" stroke="rgba(129, 140, 248, 0.16)" stroke-width="1"/>
+    <text x="14" y="20" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="9.5" font-weight="700" fill="#818cf8">METHODOLOGY</text>
+    <text x="14" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">PMI-ACP® Certified</text>
+    <text x="14" y="50" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="9" fill="#94a3b8">SCRUM · KANBAN · LEAN</text>
+
+    <!-- Node 3: Ground Operations -->
+    <rect x="432" y="0" width="202" height="58" rx="8" fill="rgba(16, 185, 129, 0.03)" stroke="rgba(16, 185, 129, 0.16)" stroke-width="1"/>
+    <text x="14" y="20" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="9.5" font-weight="700" fill="#34d399">OPERATIONAL ROOTS</text>
+    <text x="14" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">3+ Yrs Multi-Site</text>
+    <text x="14" y="50" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="9" fill="#94a3b8">CARGO CMS &amp; WEIGHBRIDGES</text>
+
+    <!-- Node 4: Education -->
+    <rect x="648" y="0" width="204" height="58" rx="8" fill="rgba(245, 158, 11, 0.03)" stroke="rgba(245, 158, 11, 0.16)" stroke-width="1"/>
+    <text x="14" y="20" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="9.5" font-weight="700" fill="#f59e0b">ACADEMIC FOUNDATION</text>
+    <text x="14" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">MBA · IIIT Ranchi</text>
+    <text x="14" y="50" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="9" fill="#94a3b8">BUSINESS &amp; TECH STRATEGY</text>
+  </g>
+</svg>

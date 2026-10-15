@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 230" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a14"/>
+      <stop offset="100%" stop-color="#0c1120"/>
+    </linearGradient>
+
+    <style>
+      @keyframes activePing {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(1.2); }
+      }
+      @keyframes lineBlink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.6; }
+      }
+      .ping-dot {
+        transform-origin: 24px 20px;
+        animation: activePing 2s ease-in-out infinite;
+      }
+      .contract-glow {
+        animation: lineBlink 4s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <rect width="920" height="230" rx="12" fill="url(#cardGrad)" stroke="rgba(56, 189, 248, 0.16)" stroke-width="1"/>
+
+  <!-- Top Terminal Header -->
+  <rect x="0" y="0" width="920" height="36" rx="12" fill="rgba(255, 255, 255, 0.02)"/>
+  <circle class="ping-dot" cx="24" cy="18" r="4" fill="#10b981"/>
+  <text x="38" y="22" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="10.5" font-weight="700" fill="#38bdf8" letter-spacing="1">FLAGSHIP ARCHITECTURE // 0-TO-1 FREIGHT FORWARDER CRM</text>
+  <text x="896" y="22" text-anchor="end" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="10" fill="#94a3b8">CONTRACT: OCEAN_CARRIER_API_v2.4 // FREIGHTOSCOPE</text>
+  <line x1="0" y1="36" x2="920" y2="36" stroke="rgba(56, 189, 248, 0.08)" stroke-width="1"/>
+
+  <!-- Split Panel Layout: Left = State Machine, Right = Spec Payload -->
+  
+  <!-- Left Panel: State Machine Graph -->
+  <g transform="translate(24, 52)">
+    <rect width="380" height="154" rx="8" fill="rgba(0, 0, 0, 0.4)" stroke="rgba(255, 255, 255, 0.06)" stroke-width="1"/>
+    <text x="16" y="24" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="10" font-weight="700" fill="#818cf8">PIPELINE STATE MACHINE // CORE FMS</text>
+
+    <!-- State 1 -->
+    <rect x="16" y="40" width="100" height="28" rx="6" fill="rgba(56, 189, 248, 0.08)" stroke="#38bdf8" stroke-width="1"/>
+    <text x="66" y="58" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9" font-weight="700" fill="#38bdf8">01_LEAD_CAPTURE</text>
+
+    <!-- State 2 -->
+    <rect x="140" y="40" width="100" height="28" rx="6" fill="rgba(129, 140, 248, 0.08)" stroke="#818cf8" stroke-width="1"/>
+    <text x="190" y="58" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9" font-weight="700" fill="#818cf8">02_RATE_LOOKUP</text>
+
+    <!-- State 3 -->
+    <rect x="264" y="40" width="100" height="28" rx="6" fill="rgba(16, 185, 129, 0.08)" stroke="#10b981" stroke-width="1"/>
+    <text x="314" y="58" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9" font-weight="700" fill="#34d399">03_BOOKING_LOCK</text>
+
+    <!-- Arrows -->
+    <text x="124" y="58" font-family="monospace" font-size="11" fill="#64748b">→</text>
+    <text x="248" y="58" font-family="monospace" font-size="11" fill="#64748b">→</text>
+
+    <!-- Verification Telemetry -->
+    <line x1="16" y1="84" x2="364" y2="84" stroke="rgba(255, 255, 255, 0.06)" stroke-width="1"/>
+    <text x="16" y="104" font-family="ui-monospace, monospace" font-size="9.5" fill="#94a3b8">Sprint Acceptance: <tspan fill="#34d399" font-weight="700">100% Pass Rate (0 Rework)</tspan></text>
+    <text x="16" y="122" font-family="ui-monospace, monospace" font-size="9.5" fill="#94a3b8">Integration Spec: <tspan fill="#f8fafc">Ocean Carrier Booking APIs</tspan></text>
+    <text x="16" y="140" font-family="ui-monospace, monospace" font-size="9.5" fill="#94a3b8">Legacy Replacement: <tspan fill="#f59e0b">Manual Spreadsheets &amp; Email</tspan></text>
+  </g>
+
+  <!-- Right Panel: Data Contract JSON -->
+  <g class="contract-glow" transform="translate(424, 52)">
+    <rect width="472" height="154" rx="8" fill="rgba(0, 0, 0, 0.6)" stroke="rgba(56, 189, 248, 0.2)" stroke-width="1"/>
+    <text x="16" y="22" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="9.5" fill="#64748b">// schema: ocean_carrier_booking_contract.json</text>
+    
+    <text x="16" y="44" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="10" fill="#f8fafc">{</text>
+    <text x="32" y="62" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="10" fill="#38bdf8">"module": <tspan fill="#e2e8f0">"0-to-1 Greenfield Forwarder CRM"</tspan>,</text>
+    <text x="32" y="80" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="10" fill="#38bdf8">"carrier_integration": <tspan fill="#e2e8f0">"Ocean Booking &amp; Milestone Tracking"</tspan>,</text>
+    <text x="32" y="98" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="10" fill="#38bdf8">"data_contract": <tspan fill="#34d399">"Unified Quote-to-Booking Payload"</tspan>,</text>
+    <text x="32" y="116" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="10" fill="#38bdf8">"validation_result": <tspan fill="#10b981">"100% Sprint Pass | Zero Schema Rework"</tspan>,</text>
+    <text x="32" y="134" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="10" fill="#38bdf8">"analyst_role": <tspan fill="#f59e0b">"Discovery, PRDs &amp; Jira Delivery Specs"</tspan></text>
+    <text x="16" y="148" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="10" fill="#f8fafc">}</text>
+  </g>
+</svg>
