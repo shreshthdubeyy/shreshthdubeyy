@@ -18,7 +18,7 @@
     <a href="mailto:shreshthdubeyy@gmail.com">
       <img src="https://img.shields.io/badge/Email-shreshthdubeyy%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
-    <a href="https://https://shreshthdubeyy.github.io/">
+    <a href="https://shreshthdubeyy.github.io/">
       <img src="https://img.shields.io/badge/Portfolio-SD.ANALYST-4F46E5?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
     </a>
     <img src="https://komarev.com/ghpvc/?username=shreshthdubeyy&style=for-the-badge&color=4f46e5" alt="Profile views" />
