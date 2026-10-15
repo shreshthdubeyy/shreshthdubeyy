@@ -1,10 +1,3 @@
-<!--
-Setup:
-- Replace shreshthdubeyy with your exact GitHub username.
-- Replace https://https://shreshthdubeyy.github.io/contactinfo/ with your live portfolio URL.
-- Keep this file as README.md inside a public repo named exactly like your GitHub username.
--->
-
 <div align="center">
   <img src="https://i.postimg.cc/wxJdbQGK/1763016603325.png" width="120" alt="Shreshth Dubey" />
 
@@ -168,5 +161,5 @@ I am open to conversations around product roles, logistics technology, SaaS deli
 <p>
   <a href="https://www.linkedin.com/in/shreshthdubey/">LinkedIn</a> |
   <a href="mailto:shreshthdubeyy@gmail.com">Email</a> |
-  <a href="https://https://shreshthdubeyy.github.io/contactinfo/">Portfolio</a>
+  <a href="https://https://shreshthdubeyy.github.io/">Portfolio</a>
 </p>
